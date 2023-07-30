@@ -17,7 +17,7 @@ public class Bj03p {
 
 
     if (a != b && b != c && a != c) {
-      int max = Math.max(a, Math.max(b, c))
+      int max = Math.max(a, Math.max(b, c));
     }
   }
 }
