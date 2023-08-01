@@ -6,19 +6,26 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Bj02 {
-  public static void main(String[] args) throws IOException {
+public class Bj01p {
+  public static void main(String[] args) throws IOException{
 
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     int N = Integer.parseInt(br.readLine());
-    int arr[] = new int[N];
 
+    double arr[] = new double[N];
     StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-    for(int i = 0; i < N; i++) {
-      arr[i] = Integer.parseInt(st.nextToken());
+    for(int i = 0; i < N; i++) {    
+      arr[i] = Double.parseDouble(st.nextToken());
     }
+
     Arrays.sort(arr);
-    System.out.print(arr[0] + " " + arr[arr.length - 1]);
+    double result = 0;
+    for(int k = 0; k < N; k++) {
+      result += arr[k] / arr[N-1] * 100;
+    }
+
+    System.out.println(result / N);
   }
+
 }
