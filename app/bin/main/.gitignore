@@ -1,5 +1,3 @@
-/app_1/
-/app_10/
 /app_11/
 /app_12/
 /app_13/
@@ -15,6 +13,8 @@
 /app_22/
 /app_23/
 /app_24/
+/app_25/
+/app_26/
 /app_3/
 /app_4/
 /app_5/
@@ -22,16 +22,13 @@
 /app_7/
 /app_8/
 /app_9/
-/app_25/
-/app_26/
-/study/
-/collection/
-/backjoon/
 /backhoon_if/
-/java_practice/
-/backjoon_for/
-/array_01/
+/backjoon/
 /backjoon_array_01/
+/backjoon_for/
 /backjoon_string/
-/baekjoon_intensify/
 /beakjoon_intensify/
+/collection/
+/java_practice/
+/study/
+/programers/
