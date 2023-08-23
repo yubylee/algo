@@ -1,7 +1,7 @@
 package programers.pg01;
 
 // 짝수는 싫어요
-public class pg12 {
+public class pg120 {
   public int[] solution(int n) {
     int[] answer;
     int k = 0;

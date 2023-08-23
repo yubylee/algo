@@ -3,7 +3,7 @@ package programers.pg01;
 import java.util.Arrays;
 
 // 최빈값 구하기
-public class pg11 {
+public class pg111 {
   public int solution(int[] array) {
     int answer = 0;
     int max = 0;
@@ -11,8 +11,9 @@ public class pg11 {
     Arrays.sort(array);
     max = array[array.length - 1];
 
+
     int count[] = new int[max + 1];
-    for(int i = 0; i < array.length; i++) {
+    for (int i = 0; i < array.length; i++) {
       count[array[i]]++;
     }
     max = count[0];
